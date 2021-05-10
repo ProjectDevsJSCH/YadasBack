@@ -1,9 +1,9 @@
 db:
   main:
-    database: 'yadas-go'
-    host: 'localhost'
-    username: 'developmentPostgres'
-    password: '!XT<`u^6mc'
+    database: ${RDS_DB_NAME}
+    host: ${RDS_HOSTNAME}
+    username: ${RDS_USERNAME}
+    password: ${RDS_PASSWORD}
     port: 5432
     synchronize: true
     ssl: false
