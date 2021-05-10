@@ -1,7 +1,7 @@
 db:
   main:
     database: 'yadas-go'
-    host: 'aanzhesh2v2wc.c6duqy4zfndg.us-east-2.rds.amazonaws.com:5432'
+    host: 'aa1i22z0m9xdw6t.c6duqy4zfndg.us-east-2.rds.amazonaws.com'
     username: 'devPostgres'
     password: '!XT<`u^6mc'
     port: 5432
