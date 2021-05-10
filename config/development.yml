@@ -1,9 +1,9 @@
 db:
   main:
-    database: '${RDS_DB_NAME}'
-    host: '${RDS_HOSTNAME}'
-    username: '${RDS_USERNAME}'
-    password: '${RDS_PASSWORD}'
+    database: 'yadas-go'
+    host: 'aa1akg3b87rltw9.c6duqy4zfndg.us-east-2.rds.amazonaws.com'
+    username: 'devPostgres'
+    password: '!XT<`u^6mc'
     port: 5432
     synchronize: true
     ssl: false
