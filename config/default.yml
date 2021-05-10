@@ -1,0 +1,25 @@
+server:
+  port: 3000
+
+db:
+  main:
+    type: 'postgres'
+    port: 5432
+
+  yadas:
+    database: 'WData'
+    host: '190.84.238.254'
+    username: 'db_admin'
+    password: 'Veritasium127'
+     
+  unipartes:
+    database: 'Unipartes'
+    host: '190.147.93.35'
+    username: 'db_admin'
+    password: 'Unipartes2021'
+    port: 49436
+
+swagger:
+  title: 'Yadas API'
+  description: 'Specification of the Yadas API'
+  version: '1.0'

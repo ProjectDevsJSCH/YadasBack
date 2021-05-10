@@ -1,0 +1,13 @@
+db:
+  main:
+    database: 'postgres'
+    host: '190.84.238.254'
+    username: 'postgres'
+    password: 'Yadas2020'
+    port: 5432
+    synchronize: true
+    ssl: false
+
+jwt:
+  secret: 'yadas'
+  
