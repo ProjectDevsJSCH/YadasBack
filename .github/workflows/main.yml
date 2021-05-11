@@ -5,7 +5,7 @@ name: BEANSTALK_DEPLOY
 on: 
   push:
       branches:
-      - develop[push] // GitHub event like push, pull-request etc
+      - develop // GitHub event like push, pull-request etc
 
 jobs:
   build:
