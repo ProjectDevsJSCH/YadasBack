@@ -1,4 +1,4 @@
-name: BEANSTALK_DEPLOY
+name: BEANSTALK_DEPLOY_REVIEW
 
 on: 
   push:
