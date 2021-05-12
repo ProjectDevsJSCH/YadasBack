@@ -1,8 +1,8 @@
 db:
   main:
     database: 'yadas-go'
-    host: 'aa1i22z0m9xdw6t.c6duqy4zfndg.us-east-2.rds.amazonaws.com'
-    username: 'devPostgres'
+    host: 'localhost'
+    username: 'developmentPostgres'
     password: '!XT<`u^6mc'
     port: 5432
     synchronize: true

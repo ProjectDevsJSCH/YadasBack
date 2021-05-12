@@ -1,7 +1,7 @@
 db:
   main:
     database: 'postgres'
-    host: '190.84.238.254'
+    host: 'aa17jzyp3rk2jwe.c6duqy4zfndg.us-east-2.rds.amazonaws.com'
     username: 'postgres'
     password: 'Yadas2020'
     port: 5432
