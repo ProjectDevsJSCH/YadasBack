@@ -3,7 +3,7 @@ name: BEANSTALK_DEPLOY
 on: 
   push:
       branches:
-      - '**'
+      - 'feature/**'
 
 jobs:
   build:
@@ -58,7 +58,7 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         region: us-east-2
         application_name: back-app
-        environment_name: Backapp-prod
+        environment_name: Backapp-review
         version_label: "my-app-${{ steps.format-time.outputs.replaced }}" # Using timestamp created previously
         deployment_package: deploy.zip
     
