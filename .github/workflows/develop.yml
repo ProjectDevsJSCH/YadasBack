@@ -57,8 +57,8 @@ jobs:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         region: us-east-2
-        application_name: back-app
-        environment_name: Backapp-prod
+        application_name: Back-app
+        environment_name: Back-app-prod
         version_label: "my-app-${{ steps.format-time.outputs.replaced }}" # Using timestamp created previously
         deployment_package: deploy.zip
     
